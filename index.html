@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>共青百年与五四精神</title>
+    <script src="javascript/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./javascript/swiper/dist/css/swiper.min.css">
+    <script src="./javascript/swiper/dist/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./javascript/index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="side colored" onclick="$('html,body').animate({ scrollTop: $('#s1').offset().top }, 400)"></div>
+            <div class="side" onclick="$('html,body').animate({ scrollTop: $('#s2').offset().top }, 400)"></div>
+            <div class="side" onclick="$('html,body').animate({ scrollTop: $('#s3').offset().top }, 400)"></div>
+            <div class="side" onclick="$('html,body').animate({ scrollTop: $('#s4').offset().top }, 400)"></div>
+            <div class="side" onclick="$('html,body').animate({ scrollTop: $('#s5').offset().top }, 400)"></div>
+        </div>
+        <div class="screen s1" id="s1">
+            <video id="bgVideo" muted autoplay loop playsinline src="./source/video/back1.mp4"></video>
+            <div class="wrapper">
+                <div class="bigger" id="s1l1">共青百年</div>
+                <div class="smaller" id="s1l2">与</div>
+                <div class="bigger" id="s1l3">五四运动</div>
+            </div>
+            <div class="promote" onclick="$('html,body').animate({ scrollTop: $('#s2').offset().top }, 400)">
+                <p>向下滑动来了解</p>
+                <img src="source/img/down.svg" id="down">
+            </div>
+        </div>
+        <div class="banner">
+            <div class="span" id="b1">五四精神&nbsp;</div>
+            <div class="span hidden" id="b2">共产主义青年团&nbsp;</div>
+        </div>
+        <div class="screen s2" id="s2">
+            <div class="wrapper">
+                <div class="content-wrapper" id="warpper1">
+                    <div class="head">五四运动</div>
+                    <div class="content">
+                        <div class="span">勿作五分钟爱国心</div>
+                        <div class="span">还我青岛</div>
+                        <div class="span">外争<div class="colored">主权</div> 内除<div class="colored"> 国贼 </div>
+                        </div>
+                    </div>
+                    <div class="btn" id="more1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183 56">
+                            <path d="M-177-1912l26,28-26,28Zm-131,56v-56h131v56Zm-26-28,26-28v56Z" transform="translate(334 1912)" fill="#fff" />
+                            <text transform="translate(92 39.482)" font-size="28">
+                                <tspan x="-56" y="0">了解更多</tspan>
+                            </text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skew">
+                    <div class="line"></div>
+                </div>
+                <div class="content-wrapper" id="warpper2">
+                    <div class="head">共青团</div>
+                    <div class="content cr">
+						<div class="span">青年在实践中学习中国特色社会主义和共产主义的学校</div>
+                        <div class="span">中国共产党的<div class="colored">助手和后备军</div>
+                        </div>
+                    </div>
+                    <div class="btn" id="more2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183 56">
+                            <path d="M-177-1912l26,28-26,28Zm-131,56v-56h131v56Zm-26-28,26-28v56Z" transform="translate(334 1912)" fill="#fff" />
+                            <text transform="translate(92 39.482)" font-size="28">
+                                <tspan x="-56" y="0">了解更多</tspan>
+                            </text>
+                        </svg>
+                    </div>
+                </div>
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- 第一个为占位符 -->
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skew-fix"><img alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mask">
+                    <h1 id="gameName">标题</h1>
+                    <h3 id="gameDes">简介</h3>
+                    <h3><a href="" id="gameSite" target="_blank">了解详情&nbsp;&raquo;</a></h3>
+                    <div class="swiper-btn">
+                        <div class="swiper-button-prev swiper-button-white"></div>
+                        <div class="swiper-button-next swiper-button-white"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-section">
+                <video muted autoplay loop playsinline src="./source/video/video.mp4"></video>
+                <img src="source/img/ProDisplayXDR.png" alt="img">
+                <div class="filter"></div>
+            </div>
+            <div class="siderS" id="s3">
+                <img class="sider sd1" src="source/icon/gcdxy.jpg">
+                <div class="text-view sd1 left">1920年11月，在陈独秀主持下，上海共产主义小组起草了《中国共产党宣言》。《中国共产党宣言》的内容包括3个部分：第一部分是共产主义者的理想、第二部分是共产主义者的目的、第三部分是阶级斗争的最近状态。《宣言》明确了党的指导思想和共产主义的理想及奋斗目标，起过临时党纲的作用，对各地建党起到了重要的指导作用。</div>
+
+                <img class="sider sd2" src="source/icon/xqn.jpg">
+                <div class="text-view sd2 left">《新青年》（LA JEUNESSE）是在20世纪20年代中国一份具有影响力的革命杂志，原名《青年杂志》，第二卷起改称《新青年》。在五四运动期间起到重要作用。自1915年9月15日创刊号至1926年7月终刊共出9卷54号。由陈独秀在上海创立，群益书社发行。该杂志发起新文化运动，并且宣传倡导民主与科学，科学（“赛先生”，Science）、民主（“德先生”，Democracy）和新文学。</div>
+                
+                <img class="sider sd3" src="./source/icon/krzj.jpg">
+                <div class="text-view sd3 left">五四青年节源于中国1919年反帝爱国的“五四运动”，五四爱国运动是一次彻底的反对帝国主义和封建主义的爱国运动，也是中国新民主主义革命的开始。1939年，陕甘宁边区西北青年救国联合会规定5月4日为中国青年节。青年节期间，中国各地都要举行丰富多彩的纪念活动，青年们还要集中进行各种社会志愿和社会实践活动，还有许多地方在青年节期间举行成人仪式。</div>
+               
+                <img class="sider sd4" src="source/icon/gqt.png">
+                <div class="text-view sd4 right">中国共产主义青年团团旗是中国共产主义青年团的团旗，是中国共产主义青年团的象征和标志，团旗是由黄色五星圆环置于红旗左上角构成。</div>
+               
+                <img class="sider sd5" src="./source/icon/ldcz.jpg">
+                <div class="text-view sd5 right">中国共产党党旗为旗面缀有金黄色党徽图案的红旗。中国共产党的党徽党旗是中国共产党的象征和标志。党的各级组织和每一个党员都要维护党徽党旗的尊严。要按照规定制作和使用党徽党旗。</div>
+               
+                <img class="sider sd6" src="./source/icon/hq.jpg">
+                <div class="text-view sd6 right">1949年4月，新政治协商会议筹备会在北京成立，为即将诞生的新中国制定国旗，是筹备会担负的一项重要任务。同年7月，《人民日报》等媒体上出现了一条征稿启事：新中国正在设计国旗图稿，希望广大人民群众能够积极参与到国旗的设计中来。经过激烈的讨论和严格的筛选，最终在离开国大典还有不足十天时，一份编号“复字第32号”的图稿引起了筹备会的注意，以红色为底色，上有一颗大五角星，星中有镰刀斧头图案，大五角星周围有四颗小五角星。大家一致认为，“复字第32号”设计图比之前挑选出来的图稿寓意更加深刻、也美观大方。毛主席看到这份图稿后十分满意，并提议去掉原设计稿上的镰刀和斧头。最终确定下来旗面为红色，长方形，长与高的比例为三比二，旗面左上方缀黄色五角星五颗，一星较大、四星较小，小星环绕在大星右侧，并各有一个角尖正对大星的中心点。</div>
+            </div>
+        </div>
+        <div class="screen s3" id="s4">
+            <div class="imgContainer" id="iC1">
+                <img src="./source/img/videoplayback-0001.jpg" alt="">
+            </div>
+            <div class="imgContainer" id="iC2">
+                <img src="./source/img/videoplayback-0002.jpg" alt="">
+            </div>
+            <div class="wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 330.414 317.931" id="hof">
+                    <defs>
+                        <linearGradient id="linear-gradient" x1="0.255" y1="0.01" x2="0.749" y2="0.997"
+                            gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#c8a06a" />
+                            <stop offset="1" stop-color="#806644" />
+                        </linearGradient>
+                    </defs>
+                    <g transform="translate(-85.474 -400.164)">
+                        <path d="M190.772,0l63.591,110.129L190.772,220.258H63.591L0,110.129,63.591,0Z" transform="translate(195.603 400.164) rotate(30)" fill="url(#linear-gradient)" />
+                        <text transform="translate(250.156 522.444)" fill="#fff" font-size="43">
+                            <tspan x="-43" y="0">五四</tspan>
+                            <tspan x="-64.5" y="50">先驱</tspan>
+                        </text>
+                        <text transform="translate(250.5 618)" fill="#f2f2f2" font-size="24">
+                            <tspan x="-48" y="0">click</tspan>
+                        </text>
+                    </g>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 330.414 317.931" id="tl">
+                    <defs>
+                        <linearGradient id="linear-gradient" x1="0.255" y1="0.01" x2="0.749" y2="0.997" gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#c8a06a" />
+                            <stop offset="1" stop-color="#806644" />
+                        </linearGradient>
+                    </defs>
+                    <g transform="translate(-85.474 -400.164)">
+                        <path d="M190.772,0l63.591,110.129L190.772,220.258H63.591L0,110.129,63.591,0Z" transform="translate(195.603 400.164) rotate(30)" fill="url(#linear-gradient)" />
+                        <text transform="translate(250.156 522.444)" fill="#fff" font-size="43">
+                            <tspan x="-43" y="0">共青团</tspan>
+                            <tspan x="-64.5" y="50">一百年</tspan>
+                        </text>
+                        <text transform="translate(250.5 618)" fill="#f2f2f2" font-size="24">
+                            <tspan x="-48" y="0">click</tspan>
+                        </text>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div class="screen s4" id="s5">
+            <div class="wrapper">
+                <div class="smaller" id="s5l1">五四运动</div>
+                <div class="bigger" id="s5l2">不只是新辟的路</div>
+                <div class="bigger" id="s5l3">更是另一个维度的天空</div>
+            </div>
+        </div>
+    </div>
+    <div class="closeBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.891 38.891">
+            <g transform="translate(133.997 -310.773) rotate(45)">
+                <line x2="50" transform="translate(127.5 314.5)" fill="none" stroke="#fff" stroke-width="5" />
+                <line x2="50" transform="translate(152.5 289.5) rotate(90)" fill="none"stroke="#fff" stroke-width="5" />
+            </g>
+        </svg>
+    </div>
+    <iframe src="waterfallflow.html" frameborder="0" id="waterflow"></iframe>
+    <iframe src="timeline.html" frameborder="0" id="timeline"></iframe>
+</body>
+
+</html>
